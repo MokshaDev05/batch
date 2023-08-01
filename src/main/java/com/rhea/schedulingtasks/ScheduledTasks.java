@@ -31,8 +31,8 @@ public class ScheduledTasks {
 		
 		Batch city = new Batch();
 		
-		city.setBatchName("batchname"  + new Date());
-		city.setBatchDetail("batchDetail" + new Date());
+		city.setBatchName("batchname::"  + new Date());
+		city.setBatchDetail("batchDetail::" + new Date());
 		
 		batchService.insertBatch(city);
 		
